@@ -1,6 +1,6 @@
 import HeroSection from "@/components/hero/Hero";
 import React from 'react'
-import GridWeapper from "@/components/imageGrid/GridWrapper";
+import ImageGrid from "@/components/imageGrid/ImageGrid";
 const mockImages = [
   {
     id: "1",
@@ -90,9 +90,7 @@ const mockImages = [
    return (
      <div>
        <HeroSection />
-       <div>
-          <GridWeapper/> 
-        </div>
+       <ImageGrid images={mockImages}/>
      </div>
    )
  }

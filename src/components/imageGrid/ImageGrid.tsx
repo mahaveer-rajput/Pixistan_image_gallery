@@ -13,7 +13,6 @@ export interface StockImage {
   description?: string;
   created_at?: string;
   imageUrl: string;
-  tags: string[];
   views: number;
   likes: number;
   downloads: number;
