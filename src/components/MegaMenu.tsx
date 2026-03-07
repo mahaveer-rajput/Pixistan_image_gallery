@@ -28,7 +28,7 @@ export default function MegaMenu({ isOpen }: { isOpen: boolean }) {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          className="hidden absolute top-full left-1/2 -translate-x-1/2 w-full max-w-5xl mx-auto bg-[#1a1a1a] text-gray-100 rounded-xl shadow-xl p-8 lg:grid grid-cols-2 md:grid-cols-5 gap-8 mt-3 z-50 border border-gray-700"
+          className="hidden absolute top-full left-1/2 -translate-x-1/2 w-full max-w-5xl mx-auto bg-white text-black rounded-xl shadow-xl p-8 lg:grid grid-cols-2 md:grid-cols-5 gap-8 mt-3 z-50 border"
         >
           {/* Column 1 */}
           <div>
